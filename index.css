@@ -1,0 +1,223 @@
+#top{
+    width: 100%;
+    height:auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -10px;
+    background-color: #E9E9E9 ;
+}
+#top>div{
+    width: 15%;
+    /* border: 1px solid salmon; */
+    display: flex;
+}
+#top>div>img{
+    width: 10%;
+    height: 40%;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+#navbar{
+    width: 100%;
+    /* border: 2px solid salmon; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+#navbar1{
+    width:100%;
+    /* border: 2px solid yellowgreen; */
+    /* height: 80px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+}
+#navbar1>div{
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+#navbar1>div>p{
+    font-weight: bolder;
+}
+#navbar1>div>p>span{
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 20px;
+}
+#navbar1>div>p{
+    text-align: center;
+}
+#navbar1>div{
+    text-align: center;
+    /* display: grid; */
+}
+#search{
+    width: 100%;
+    display: grid;
+}
+#search>input{
+    margin: auto;
+    width: 30em;
+    height: 3em;
+    border-radius: 5px;
+}
+#account{
+    display: grid;
+}
+#account>div{
+    /* border: 1px solid blueviolet; */
+    width: 40%;
+    margin: auto;
+    display: flex;
+    /* font-size: 30px; */
+    padding: 5px;
+}
+#account>div>img{
+    width: 35%;
+    height: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#cart{
+    display: grid;
+}
+#cart>div{
+    width: 30%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    
+}
+#cart>div>img{
+    width: 40%;
+    height: 10%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#navbar2{
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    /* border: 1px solid yellow; */
+    margin: auto;
+    justify-content: space-around;
+}
+#navbar2>div{
+    /* border: 1px solid red; */
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+}
+#bnav{
+    width: 100%;
+    display: flex;
+    /* border: 2px dashed springgreen; */
+    padding: 10px;
+    background-color: #F1EBEB;
+}
+#bnav>div{
+    margin: auto;
+    /* border: 2px solid red; */
+    color: grey;
+}
+#time{
+    width: 100%;
+    /* border: 2px dashed blue; */
+    height: 50px;
+}
+#time>button{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border: none;
+    background-color: #D5D0D0;
+}
+#time>button:hover{
+    background-color: #F1EBEB;
+}
+#crauser{
+    width: 100%;
+    position: relative;
+}
+#crauser>img{
+    width: 100%;
+}
+#crauser>button{
+    position: absolute;
+    top: 40%;
+    background-color: rgba(100,100,100,0.4);
+    width: 3%;
+    height: 7%;
+    border: none;
+}
+button:nth-child(2){
+    left: 10px;
+}
+button:nth-child(3){
+    right: 10px;
+}
+h2{
+    text-align: center;
+}
+#cont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 13px;
+    position: relative;
+}
+#cont>button{
+    width: 5%;
+    height: 10%;
+    position: absolute;
+    background-color: rgba(100,100,100,0.3);
+    border: none;
+}
+#prodleftBtn{
+    left: 2%;
+    top: 45%;
+}
+#prodrightBtn{
+    right: 2%;
+    top: 45%;
+}
+.container{
+    text-align: center;
+    width: 95%;
+    margin: 10px;
+    display: inline-block;
+}
+.container>img{
+    width: 100%;
+}
+.container>div{
+    border: 1px solid grey;
+    margin-top: 15px;
+}
+.container>button{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: black;
+}
+.container>p,.container>div>p{
+    font-family: "lato regular",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    word-break: break-word;
+}
