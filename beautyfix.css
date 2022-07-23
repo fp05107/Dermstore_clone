@@ -1,10 +1,9 @@
 
 #top{
     width: 100%;
-    /* border: 1px solid red; */
+    /* height: 40px; */
     display: flex;
     justify-content:flex-end;
-    /* margin-top: -10px; */
     background-color: #E9E9E9 ;
 }
 #top>div{
@@ -31,23 +30,15 @@
 #navbar1{
     width:100%;
     /* border: 2px solid yellowgreen; */
-    /* height: 80px; */
+    height: auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin: auto;
+    padding: 30px 0px;
 }
 #navbar1>div{
     /* border: 1px solid red; */
     justify-content: center;
-}
-#navbar1>div>p{
-    font-weight: bolder;
-}
-#navbar1>div>p>span{
-    font-size: 80px;
-    font-weight: bolder;
-    text-align: center;
-    margin-right: 20px;
 }
 #navbar1>div>p{
     text-align: center;
@@ -79,7 +70,7 @@
 }
 #account>div>img{
     width: 35%;
-    height: 10%;
+    height: 0%;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -141,158 +132,67 @@
 #time>button:hover{
     background-color: #F1EBEB;
 }
-#crauser{
+#beautyfix{
+    width:100%;
+    display: flex;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-top: 80px;
+}
+#beautyfix>div{
+    /* border: 2px solid black; */
+    margin: auto;
+}
+#beautyfix>div:nth-child(2){
     width: 100%;
-    position: relative;
 }
-#crauser>img{
-    width: 100%;
+#beautyfix>div>img{
+    width: 180%;
 }
-#crauser>button{
-    position: absolute;
-    top: 40%;
-    background-color: rgba(100,100,100,0.4);
-    width: 3%;
-    height: 7%;
-    border: none;
+h1{
+    font-size: 50px;
 }
-button:nth-child(2){
-    left: 10px;
+#bt{
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 12px;
 }
-button:nth-child(3){
-    right: 10px;
-}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+} 
 h2{
     text-align: center;
 }
-#cont{
+#get{
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 13px;
-    position: relative;
-}
-#cont>button{
-    width: 5%;
-    height: 10%;
-    position: absolute;
-    background-color: rgba(100,100,100,0.3);
-    border: none;
-}
-#prodleftBtn{
-    left: 2%;
-    top: 45%;
-}
-#prodrightBtn{
-    right: 2%;
-    top: 45%;
-}
-.container{
-    text-align: center;
-    width: 95%;
-    margin: 10px;
-    display: inline-block;
-}
-.container>img{
-    width: 100%;
-}
-.container>div{
-    border: 1px solid grey;
-    margin-top: 15px;
-}
-.container>button{
-    width: 100%;
-    height: 45px;
-    margin-bottom: 15px;
-    color: white;
-    background-color: black;
-}
-.container>p,.container>div>p{
-    font-family: "lato regular",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.428;
-    color: #000;
-    font-weight: 500;
-    letter-spacing: 0;
-    text-transform: none;
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    word-break: break-word;
-}
-#x,.y{
-    text-align: center;
-}
-#catagory{
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-    margin-top: 50px;
-    /* border: 2px solid red; */
-}
-#catagory>div{
-    border: 2px solid black;
-    text-align: center;
-    padding: 7px;
-    font-size: inherit;
-    text-transform: inherit;
-    font-family: inherit;
-    line-height: inherit;
-    color: inherit;
-    font-weight: inherit;
-    /* margin-left: 35px; */
-}
-#shop{
-    width: 95%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    margin: auto;
-    margin-top: 30px;
+    /* border: 2px solid greenyellow; */
 }
-#shop>div{
+#get>div{
+    /* border: 2px solid red; */
     text-align: center;
 }
-#shop>div>img{
-    width: 100%;
-}
-#featuredbrands{
+#subscription{
     width: 95%;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 20px;
     margin: auto;
-    margin-top: 50px;
+    display: flex;
+    margin-top: 70px;
+    /* border: 2px solid red; */
 }
-#featuredbrands>div{
-    /* border: 1px solid red; */
-    margin: auto;
-}
-#featuredbrands>div>img{
-    width: 100%;
-    margin: auto;
-}
-#brands{
+#subscription>div{
+    /* border: 2px solid blue; */
     text-align: center;
+    width: 50%;
 }
-#video{
-    width: 100%;
-    margin-top: 100px;
-}
-#video>img{
-    width: 100%;
-}
-.glow{
-    text-align: center;
-}
-#surflodge{
-    width: 100%;
-    margin-top: 60px;
-}
-#surflodge>img{
-    width: 100%;
+#subscription>div>button{
+    background-color:black;
+    color: white;
+    width: 35%;
+    padding: 10px;
+    margin: 20px;
 }
 #footer1{
     width: 98%;
