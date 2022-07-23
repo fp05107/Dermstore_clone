@@ -1,24 +1,28 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 #top{
     width: 100%;
+    height: 5vh;
     /* border: 1px solid red; */
     display: flex;
     justify-content:flex-end;
-    /* margin-top: -10px; */
     background-color: #E9E9E9 ;
 }
 #top>div{
     width: 15%;
     /* border: 1px solid salmon; */
     display: flex;
+    align-items: center;
 }
 #top>div>img{
     width: 10%;
-    height: 40%;
+    height: 60%;
     margin: auto;
     margin-left: 20px;
     margin-right: 20px;
-    border-radius: 100px;
+    border-radius: 100%;
 }
 #navbar{
     width: 100%;
@@ -27,6 +31,7 @@
     top: 0px;
     z-index: 1;
     background-color: white;
+    padding: 20px 0px;
 }
 #navbar1{
     width:100%;
@@ -34,7 +39,7 @@
     /* height: 80px; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin: auto;
+    margin: 20px auto;
 }
 #navbar1>div{
     /* border: 1px solid red; */
@@ -67,7 +72,9 @@
     border-radius: 5px;
 }
 #account{
-    display: grid;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
 }
 #account>div{
     /* border: 1px solid blueviolet; */
@@ -76,15 +83,15 @@
     display: flex;
     /* font-size: 30px; */
     padding: 5px;
+    align-items: center;
 }
 #account>div>img{
-    width: 35%;
-    height: 10%;
+    width: 15%;
     margin-left: 15px;
     margin-right: 15px;
 }
 #cart{
-    display: grid;
+    display:flex;
 }
 #cart>div{
     width: 30%;
@@ -92,10 +99,11 @@
     margin: auto;
     display: flex;
     padding: 5px;
+    align-items:center;
     
 }
 #cart>div>img{
-    width: 40%;
+    width: 24%;
     height: 10%;
     margin-left: 15px;
     margin-right: 15px;
@@ -147,6 +155,7 @@
 }
 #crauser>img{
     width: 100%;
+    margin-bottom: 30px;
 }
 #crauser>button{
     position: absolute;
@@ -170,7 +179,10 @@ h2{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     position: relative;
+    /* border: 2px solid red; */
 }
 #cont>button{
     width: 5%;
@@ -190,20 +202,25 @@ h2{
 .container{
     text-align: center;
     width: 95%;
-    margin: 10px;
+    margin: auto;
     display: inline-block;
+    /* border: 2px solid blue; */
 }
 .container>img{
     width: 100%;
+    margin-bottom: 15px;
 }
 .container>div{
+    padding: 5px 65px;
     border: 1px solid grey;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 .container>button{
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
+    margin-top: 15px;
     color: white;
     background-color: black;
 }
@@ -322,6 +339,10 @@ h2{
     /* border: 2px solid salmon; */
     border-bottom: 0.7px solid grey;
 }
+#services>div>p{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
 #services>div:nth-child(1){
     border-top: 0.7px solid grey;
 }
@@ -334,6 +355,10 @@ h2{
     /* border: 1px solid black; */
     border-top: 0.7px solid grey;
 }
+#services2>div>p{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
 #footer2{
     width: 100%;
     display: grid;
@@ -343,6 +368,45 @@ h2{
 }
 #footer2>div>img{
     width: 8%;
+}
+#revita{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin: 40px auto;
+    /* height: 200px; */
+}
+#revita>div{
+    text-align: center;
+}
+#revita>div>img{
+    margin-bottom: 25px;
+}
+#revita>button{
+    position: absolute;
+    top: 45%;
+    background-color: rgba(100,100,100,0.4);
+    border: none;
+    width: 5%;
+    height: 15%;
+}
+#revita>button:nth-child(5){
+    left: 2%;
+    top: 40%;
+}
+#revita>button:nth-child(6){
+    top: 40%;
+    right: 2%;
+}
+#services>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#services2>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 body {
     max-width: 100%;

@@ -244,6 +244,16 @@ h2{
 #footer2>div>img{
     width: 8%;
 }
+#company{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+}
+#company>div{
+    text-align: center;
+}
 body {
     max-width: 100%;
     overflow-x: hidden;

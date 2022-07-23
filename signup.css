@@ -8,6 +8,7 @@
     position: sticky;
     z-index: 2;
     top: 0%;
+    padding: 12px;
 }
 #navbar>img{
     margin-left: 25px;
@@ -23,6 +24,7 @@ form{
     padding: 35px;
     margin:auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 50px;
 }
 input{
     width: 100%;
@@ -36,4 +38,14 @@ button{
     color: white;
     background-color: black;
     height: 50px;
+}
+@media all and (min-width:600px) and (max-width:900px){
+    form{
+        width:70%;
+    }
+}
+@media all and (min-width:300px) and (max-width:599px){
+    form{
+        width:90%;
+    }
 }

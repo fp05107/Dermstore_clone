@@ -19,5 +19,6 @@ document.querySelector("button").addEventListener("click",function(event){
     }
     signupArr.push(signupObj)
     localStorage.setItem("signupdata",JSON.stringify(signupArr));
+    window.location.href="login.html"
 }
 })
