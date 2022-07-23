@@ -1,0 +1,9 @@
+document.querySelector("#acc").addEventListener("click",function(){
+    window.location.href="login.html"
+})
+document.querySelector("#crt").addEventListener("click",function(){
+    window.location.href="cart.html"
+})
+document.querySelector("#x").addEventListener("click",function(){
+    window.location.href="index.html"
+})

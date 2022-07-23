@@ -400,13 +400,26 @@ h2{
     top: 40%;
     right: 2%;
 }
-#services>div{
-    margin-top: 10px;
-    margin-bottom: 10px;
+#services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 98%;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid salmon; */
+    border-bottom: 0.7px solid grey;
+}
+#services>div:nth-child(1){
+    border-top: 0.7px solid grey;
+}
+#services2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 #services2>div{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 85%;
+    /* border: 1px solid black; */
+    border-top: 0.7px solid grey;
 }
 body {
     max-width: 100%;

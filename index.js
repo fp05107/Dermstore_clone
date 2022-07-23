@@ -4,6 +4,12 @@ document.querySelector("#acc").addEventListener("click",function(){
 document.querySelector("#crt").addEventListener("click",function(){
     window.location.href="cart.html"
 })
+document.querySelector("#refer").addEventListener("click",function(){
+    window.location.href="refer.html"
+})
+document.querySelector("#app").addEventListener("click",function(){
+    window.location.href="app.html"
+})
 let firstcrauserimg = [
     "https://static.thcdn.com/images/xlarge/webp/widgets/208-us/44/original-0629-STDCRE-38074-DS-CG-July-Priority-Batch-Shot02-HomePage_1920x700-050944.jpg",
     "https://static.thcdn.com/images/xlarge/webp/widgets/208-us/28/original-0704-STDCRE-38075-DS-AM-July-2022-Photography-Remaining-Btching-1920x700-050028.jpg",

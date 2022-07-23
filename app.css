@@ -108,7 +108,6 @@
     margin-left: 15px;
     margin-right: 15px;
 }
-
 #navbar2{
     display: grid;
     grid-template-columns: repeat(14,1fr);
@@ -149,6 +148,25 @@
 #time>button:hover{
     background-color: #F1EBEB;
 }
+#footer1{
+    width: 98%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    margin-top: 100px;
+    border-top: 0.7px solid grey;
+}
+#footer1>div>img{
+    width: 6%;
+    margin-right: 10px;
+}
+#footer1>div>button{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 40%;
+}
 #services{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -161,9 +179,15 @@
 #services>div:nth-child(1){
     border-top: 0.7px solid grey;
 }
-#services>div>p{
-    margin-top: 10px;
+#services2>div>p{
+    margin-top: 7px;
+    margin-bottom: 15px;
 }
+#services>div>p{
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
 #services2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -172,9 +196,6 @@
     width: 85%;
     /* border: 1px solid black; */
     border-top: 0.7px solid grey;
-}
-#services2>div>p{
-    margin-top: 10px;
 }
 #footer2{
     width: 100%;
@@ -186,17 +207,48 @@
 #footer2>div>img{
     width: 8%;
 }
-#crt{
-    width: 100%;
-    text-align: center;
-    margin: 40px auto;
+#company{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
 }
-#crt>button{
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
+#company>div{
+    text-align: center;
+}
+#download{
+    width: 100%;
     margin: 20px auto;
-
+    /* border: 2px solid red; */
+}
+#download>img{
+    width: 100%;
+}
+#mid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    margin: 40px auto;
+    /* border: 2px solid green; */
+}
+#mid>div>img{
+    width:100%;
+}
+#last{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+#last>div>img{
+    width: 100%;
+    margin-bottom: 20px;
 }
 body {
     max-width: 100%;
