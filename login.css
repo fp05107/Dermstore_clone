@@ -1,8 +1,8 @@
 #navbar{
     width: 100%;
     /* border: 2px solid red; */
+    background-color: white;
     height: 80px;
-    background-color: rgb(230, 230, 230);
     display: flex;
     align-items: center;
     position: sticky;
@@ -29,13 +29,21 @@ input {
 option {
     font-size: 25px;
 }
-
-form {
-    width: 400px;
+#x{
+    border: 2px solid red;
+    display: flex;
+    width: 100%;
+    padding: 100px;
+    background-color: rgb(230, 230, 230);
+}
+#form {
+    width: 35%;
     border: 1px solid rgb(230, 230, 230);
-    margin: 10% 20%;
+    /* margin: 10% 20%; */
+    margin: auto;
     padding: 3%;
     background: white;
+    border-radius: 10px;
 }
 
 button {
@@ -58,7 +66,7 @@ button {
 #form>div>div{
     text-align: center;
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content: center;
     /* margin: auto; */
 }
@@ -66,12 +74,13 @@ button {
     width: 20%;
 }
 #signup{
-    width: 25%;
-    /* border: 2px solid green; */
-    position: relative;
-    top: -99%;
-    left: 38%;
+    width: 35%;
+    border: 2px solid green;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+
 }
 #signup>button{
-    width: 100%;
+    width: 80%;
 }
